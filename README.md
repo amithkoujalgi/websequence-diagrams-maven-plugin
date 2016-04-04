@@ -1,4 +1,22 @@
 # websequence-diagrams-maven-plugin
+
+This is a utility to generate sequence diagrams with simple text.
+
+You can specify the flow in textual form, and you'd get an image representation of the flow.
+
+```sh
+title Authentication Sequence
+Alice->Bob: Authentication Request
+note right of Bob: Bob thinks about it
+Bob->Alice: Authentication Response
+```
+
+And it generates the following image:
+
+![alt tag](https://raw.githubusercontent.com/koujalgi-amith/websequence-diagrams-maven-plugin/master/test.png)
+
+This utility runs the text on the https://www.websequencediagrams.com/ server and gathers the image file. (So, this utility needs internet connection to run, of course)
+
 Original work: https://github.com/efinery/maven-websequencediagrams-plugin
 
 Clone this project and build:
