@@ -33,7 +33,7 @@ mvn clean install
 
 Here's a single-line install command:
 ```sh
-sudo wget https://raw.githubusercontent.com/koujalgi-amith/websequence-diagrams-maven-plugin/master/build.sh -v -O build.sh; sudo chmod 777 build.sh; ./build.sh; rm -rf build.sh
+sudo wget https://raw.githubusercontent.com/koujalgi-amith/websequence-diagrams-maven-plugin/master/build.sh -v -O build.sh; sudo chmod 777 build.sh; ./build.sh; rm -rf build.sh; rm -rf websequence-diagrams-maven-plugin
 ```
 
 # Sample usage in your maven project:
