@@ -22,7 +22,7 @@ And it generates the following image:
 This utility runs the text on the https://www.websequencediagrams.com/ server and gathers the image file. (So, this utility needs internet connection to run, of course)
 
 
-Clone this project and build:
+# Clone this project and build:
 
 ```sh
 cd ~/
@@ -31,7 +31,7 @@ cd websequence-diagrams-maven-plugin
 mvn clean install
 ```
 
-Sample usage in your maven project:
+# Sample usage in your maven project:
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
