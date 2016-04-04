@@ -67,3 +67,5 @@ Sample usage in your maven project:
 
 </project>
 ```
+
+For more kinds of sequence diagrams and help, check https://www.websequencediagrams.com/examples.html
