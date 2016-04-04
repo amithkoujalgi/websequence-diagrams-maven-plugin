@@ -1,8 +1,12 @@
 # websequence-diagrams-maven-plugin
 
+Original work: https://github.com/efinery/maven-websequencediagrams-plugin
+
 This is a utility to generate sequence diagrams with simple text.
 
 You can specify the flow in textual form, and you'd get an image representation of the flow.
+
+You'd go something like this:
 
 ```sh
 title Authentication Sequence
@@ -17,7 +21,6 @@ And it generates the following image:
 
 This utility runs the text on the https://www.websequencediagrams.com/ server and gathers the image file. (So, this utility needs internet connection to run, of course)
 
-Original work: https://github.com/efinery/maven-websequencediagrams-plugin
 
 Clone this project and build:
 
